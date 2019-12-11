@@ -1,9 +1,9 @@
 const pwaCache = 'pwa-cache-2';
 const staticCache = [
-    '/',
-    'style.css',
-    'main.js',
-    'defaultStyle.css'
+    '/pwa_lecture/',
+    '/pwa_lecture/style.css',
+    '/pwa_lecture/main.js',
+    '/pwa_lecture/defaultStyle.css'
 ];
 
 self.addEventListener('fetch', (e)=>{

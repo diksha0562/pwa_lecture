@@ -4,7 +4,7 @@
 if (navigator.serviceWorker) {
     // register the sw
 
-    navigator.serviceWorker.register('/cachingStrtegies-sw.js')
+    navigator.serviceWorker.register('/pwa_lecture/cachingStrtegies-sw.js')
         .then(function (registration) {
 
             console.log('sw registered', registration);
